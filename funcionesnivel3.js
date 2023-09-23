@@ -3,7 +3,7 @@ userIdGeneratedByUser. No toma ningun parametro pero toma dos entradas
 usando prompt(). Una de las entradas es la cantidad de caracteres y la
 segunda entrada es la cantidad de ID que se supone que se generaran.
 */
-
+/*
 function userIdGeneratedByUser(){
     let caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!#%&/()=?![]*_-:;"
     let usuario="";
@@ -22,25 +22,25 @@ function userIdGeneratedByUser(){
     return usuarios;
 }
 console.log(userIdGeneratedByUser());
-
-/*
-function userIdGeneratedByUser(){
-    let caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!#%&/()=?![]*_-:;"
-    let usuario="";
-    let usuarios = [];
-    let cantCaracteres = 10;
-    
-        for(let x = 0; x <cantCaracteres; x ++){
-            usuario += caracteres.charAt(Math.floor(Math.random()* caracteres.length));
-            
-        }
-        usuarios.push(usuario);
-
-    
-    
-    
-    
-    return usuarios;
-}
-console.log(userIdGeneratedByUser());
 */
+
+//Escribe un nombre de función rgbColorGenerator y genera colores rgb.
+/*
+function generarColorRgb(){
+    
+    let maximo = 255
+    let arrayRGB =[];
+    let colorGenerado = 0;
+    for(let i= 0; i < 3; i ++){
+        colorGenerado= Math.floor(Math.random() * maximo);
+        arrayRGB.push(colorGenerado);
+    }
+    
+    return `El color obtenido es R: ${arrayRGB[0]}, G: ${arrayRGB[1]}, B: ${arrayRGB[2]}`;
+
+}
+
+console.log(generarColorRgb());
+*/
+//Escriba una funcion arrayOfHexaColors que devuelva cualquier cantidad de colores hexadecimales en una matriz.
+
